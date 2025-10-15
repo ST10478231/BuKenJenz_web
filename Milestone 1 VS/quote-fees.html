@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Total Fees</title>
+    <link rel="stylesheet" href="css/quote-fees.css">
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button id="returnButton">Return</button>
+    <script>
+        document.getElementById("returnButton").onclick = function () {
+            location.href = "selected.html";
+        };
+    </script>
+
+    <h1>Quote Fee</h1>
+    <ul id="courseList"></ul>
+    <h3 id="totalFee"></h3>
+
+    <button class="nextButton" id="nextButton">Next →</button>
+
+    <script>
+        const coursePrices = {
+        "First Aid": 1500,
+        "Sewing": 1500,
+        "Landscaping": 1500,
+        "Life Skills": 1500,
+        "Child Minding": 750,
+        "Cooking": 750,
+        "Garden Maintenance": 750
+    };
+    const courses = JSON.parse(localStorage.getItem('selectedCourses') || '[]');
+
+    let totalFee = 0;
+    const courseList = document.getElementById('courseList');
+    courses.forEach(course => {
+        const li = document.createElement('li');
+        const price = coursePrices[course] || 0;
+        li.textContent = `${course} - R${price}`;
+        courseList.appendChild(li);
+        totalFee += price;
+    });
+
+    // Calculate discount
+    let discount = 0;
+    if (courses.length === 2) {
+        discount = 0.05;
+    } else if (courses.length === 3) {
+        discount = 0.10;
+    } else if (courses.length > 3) {
+        discount = 0.15;
+    }
+    const discountAmount = totalFee * discount;
+    const finalFee = totalFee - discountAmount;
+
+   let feeText = `<div>Total Fee: R${totalFee}</div>`;
+        if (discount > 0) {
+            feeText += `<div>Discount: -R${discountAmount.toFixed(2)} (${(discount*100).toFixed(0)}%)</div>`;
+            feeText += `<div>Final Fee: R${finalFee.toFixed(2)}</div>`;
+        }
+    document.getElementById('totalFee').innerHTML = feeText;
+    document.getElementById('nextButton').addEventListener('click', function() {
+        location.href = 'contact-info.html';
+    });
+    </script>
+</body>
+</html>

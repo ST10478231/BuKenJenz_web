@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Courses</title>
+    <link rel="stylesheet" href="css/select-course.css">
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button id="returnButton">Return</button>
+    <script>
+        document.getElementById("returnButton").onclick = function () {
+            location.href = "index.html";
+        };
+    </script>
+
+    <h3>Please select course/courses that you would like to purchase:</h3>
+        <label><input type="checkbox" value="First Aid"> First Aid</label>
+        <label><input type="checkbox" value="Sewing"> Sewing</label>
+        <label><input type="checkbox" value="Landscaping"> Landscaping</label>
+        <label><input type="checkbox" value="Life Skills"> Life Skills</label>
+        <label><input type="checkbox" value="Child Minding"> Child Minding</label>
+        <label><input type="checkbox" value="Cooking"> Cooking</label>
+        <label><input type="checkbox" value="Garden Maintenance"> Garden Maintenance</label>
+
+    <button class="nextButton" id="nextButton">Next →</button>
+
+    <script>
+        document.getElementById('nextButton').addEventListener('click', function() {
+            const checked = Array.from(document.querySelectorAll('input[type="checkbox"]:checked'))
+                .map(cb => cb.value);
+            localStorage.setItem('selectedCourses', JSON.stringify(checked));
+            location.href = 'selected.html';
+        });
+    </script>
+</body>
+</html>

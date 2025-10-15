@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selected Courses</title>
+    <link rel="stylesheet" href="css/selected.css">
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button id="returnButton">Return</button>
+    <script>
+        document.getElementById("returnButton").onclick = function () {
+            location.href = "select-course.html";
+        };
+    </script>
+
+    <h1>Selected Courses</h1>
+    <h3>Courses you have selected:</h3>
+    <ul id="selectedCoursesList"></ul> 
+    <h3 id="totalFee"></h3>
+
+    <div class="calculator">
+        <p>Click the button below to calculate the total fees for your selected courses:</p>
+        <a href="quote-fees.html">Calculator</a>
+    </div>
+
+    <script>
+    const courses = JSON.parse(localStorage.getItem('selectedCourses') || '[]');
+    const courseList = document.getElementById('selectedCoursesList');
+    courseList.innerHTML = ""; 
+
+    courses.forEach(course => {
+        const li = document.createElement('li');
+        li.textContent = course;
+        courseList.appendChild(li);
+    });
+</script>
+</body>
+</html>

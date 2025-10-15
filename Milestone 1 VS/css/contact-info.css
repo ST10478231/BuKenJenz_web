@@ -1,0 +1,90 @@
+button {
+    margin-bottom: 70px;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Hammersmith One' sans-serif;
+    background-color: rgb(224, 232, 228);
+    color: rgb(8, 7, 7);
+    margin: 20px 0 0 20px;
+    display: block;
+}
+
+button:hover {
+    background-color: antiquewhite;
+    color:rgb(9, 104, 57)
+}
+
+.nextButton {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    margin: 0 !important;
+    display: inline-block !important;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Hammersmith One', sans-serif;
+    background-color: white;
+    color: black;
+    z-index: 1000;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    text-align: center;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.image {
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid antiquewhite;
+    background-color: white;
+    padding: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    transform: scale(1);
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin: 10px auto;
+    border: none;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+body {
+    background-image: url('../images/Background.png');
+    color:antiquewhite;
+    font-size: 18px;
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+footer {
+    margin-top: 70px;
+    margin-bottom: 25px;
+    text-align: center;
+}

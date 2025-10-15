@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Info</title>
+    <link rel="stylesheet" href="css/contact-info.css">
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button id="returnButton">Return</button>
+    <script>
+        document.getElementById("returnButton").onclick = function () {
+            location.href = "quote-fees.html";
+        };
+    </script>
+
+    <h1>Please choose one of the campuses below that you would like to visit:</h1>
+
+    <img src="images/logo.jpg" width="200" height="200" class="logo">
+
+    <h3>Rosebank Campus</h3>
+    <img src="images/rosebank.jpg" width="100" class="image">
+
+    <h3>Alberton Campus</h3>
+    <img src="images/alberton2.jpg" width="100" class="image">
+
+    <h3>Sandton Campus</h3>
+    <img src="images/sandton.jpg" width="100" class="image">
+
+    <footer>
+        <p>Phone: + 27 01 657 8878</p>
+        <p>Email: info@empoweringthenation.co.za</p>
+    </footer>
+
+    <button class="nextButton" id="nextButton">Next →</button>
+    <script>
+    document.getElementById('nextButton').addEventListener('click', function() {
+        location.href = 'customer-contact.html';
+    });
+    </script>
+</body>
+</html>

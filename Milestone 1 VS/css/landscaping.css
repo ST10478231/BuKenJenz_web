@@ -1,0 +1,49 @@
+body {
+    background-color: #27533e;
+    font-family: 'Hammersmith One', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.image-section {
+    text-align: center;
+}
+
+div.content {
+    text-align: justify;
+    color: white;
+}
+
+li {
+    text-align: left;
+    color: black;
+}
+
+ul {
+    text-align: center;
+    display: inline-block;
+    color: black;
+}
+
+button {
+    margin-bottom: 70px;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Hammersmith One' sans-serif;
+    background-color: rgb(224, 232, 228);
+    color: rgb(10, 7, 7);
+    margin: 20px 0 0 20px;
+    display: block;
+}
+
+button:hover {
+    background-color: antiquewhite;
+    color: #2b0106;
+}

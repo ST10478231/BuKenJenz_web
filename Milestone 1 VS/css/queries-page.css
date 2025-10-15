@@ -1,0 +1,64 @@
+h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-style: italic;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.input-group {
+    color: antiquewhite;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+button {
+    margin-bottom: 70px;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Hammersmith One' sans-serif;
+    background-color: rgb(224, 232, 228);
+    color: rgb(10, 7, 7);
+    margin: 20px 0 0 20px;
+    display: block;
+}
+
+button:hover {
+    background-color: antiquewhite;
+    color: rgb(9, 104, 57);
+}
+
+.send-btn:hover, button:hover {
+    background-color: antiquewhite;
+    color: rgb(9, 104, 57);
+}
+
+.send-btn {
+    display: block; 
+    margin: 0 auto 70px; 
+    text-align: center;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Hammersmith One', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+body {
+    background-image: url('../images/Background.png');
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+#message, textarea {
+    resize: none; 
+    width: 350px;
+    height: 120px;
+    border-radius: 5px;
+}

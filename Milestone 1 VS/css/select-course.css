@@ -1,0 +1,48 @@
+body {
+    color:antiquewhite;
+    background-image: url('../images/Background.png');
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+button:hover {
+    background-color: antiquewhite;
+    color:rgb(9, 104, 57)
+}
+
+button {
+    margin-bottom: 70px;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Hammersmith One' sans-serif;
+    background-color: rgb(224, 232, 228);
+    color: rgb(10, 7, 7);
+    margin: 20px 0 0 20px;
+    display: block;
+}
+
+.nextButton {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    margin: 0;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Hammersmith One', sans-serif;
+    background-color: white;
+    color: black;
+    z-index: 1000;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+
