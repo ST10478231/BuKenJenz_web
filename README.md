@@ -2,7 +2,7 @@
 # Group Assignment - Website
 # Github Link
 
-
+https://github.com/ST10478231/BuKenJenz_web
 
 # Wireframes
 <img width="701" height="519" alt="Screenshot 2025-10-15 at 18 02 48" src="https://github.com/user-attachments/assets/20721231-36f8-4480-a7f1-86841d6eb336" />
