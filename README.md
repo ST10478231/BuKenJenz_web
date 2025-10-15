@@ -23,6 +23,10 @@ https://github.com/ST10478231/BuKenJenz_web
 <img width="675" height="500" alt="Screenshot 2025-10-15 at 18 06 25" src="https://github.com/user-attachments/assets/876091ed-9638-47f0-8353-e3ea0d6f0235" />
 <img width="661" height="495" alt="Screenshot 2025-10-15 at 18 06 37" src="https://github.com/user-attachments/assets/16ebe080-dbeb-4546-b0af-19c751959be4" />
 
+# Meeting minutes
+
+[Bukenjenz.pdf](https://github.com/user-attachments/files/22932246/Bukenjenz.pdf)
+
 
 
 
