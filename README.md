@@ -1,8 +1,12 @@
 # BuKenJenz
 # Group Assignment - Website
 # Github Link
-
 https://github.com/ST10478231/BuKenJenz_web
+
+# Roles
+1. Buhle: Vice Head
+2. Kenny: Secretary
+3. Zhenni: Head 
 
 # Wireframes
 <img width="701" height="519" alt="Screenshot 2025-10-15 at 18 02 48" src="https://github.com/user-attachments/assets/20721231-36f8-4480-a7f1-86841d6eb336" />
@@ -23,9 +27,17 @@ https://github.com/ST10478231/BuKenJenz_web
 <img width="675" height="500" alt="Screenshot 2025-10-15 at 18 06 25" src="https://github.com/user-attachments/assets/876091ed-9638-47f0-8353-e3ea0d6f0235" />
 <img width="661" height="495" alt="Screenshot 2025-10-15 at 18 06 37" src="https://github.com/user-attachments/assets/16ebe080-dbeb-4546-b0af-19c751959be4" />
 
-# Meeting minutes
-
+# Meeting Minutes
 [Bukenjenz.pdf](https://github.com/user-attachments/files/22932246/Bukenjenz.pdf)
+
+# Changelog
+1. Changed the layout.
+2. Removed Log in page and profile.
+3. Added Enquiry page.
+4. Changed the wireframes.
+5. Added more css, example: hover.
+6. Home page added About us, Business Mission and discount to capture users attention.
+
 
 
 
