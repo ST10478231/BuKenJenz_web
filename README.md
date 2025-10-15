@@ -30,6 +30,9 @@ https://github.com/ST10478231/BuKenJenz_web
 # Meeting Minutes
 [Bukenjenz.pdf](https://github.com/user-attachments/files/22932246/Bukenjenz.pdf)
 
+# Content Resources
+[Content_Bukenjenz[1].pdf](https://github.com/user-attachments/files/22934486/Content_Bukenjenz.1.pdf)
+
 # Changelog
 1. Changed the layout.
 2. Removed Log in page and profile.
