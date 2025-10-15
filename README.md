@@ -37,6 +37,7 @@ https://github.com/ST10478231/BuKenJenz_web
 4. Changed the wireframes.
 5. Added more css, example: hover.
 6. Home page added About us, Business Mission and discount to capture users attention.
+7. Added photos of the campues. 
 
 
 
