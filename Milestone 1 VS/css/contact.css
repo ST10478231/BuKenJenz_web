@@ -10,7 +10,11 @@ body {
     font-family: 'Hammersmith One' serif;
     font-size: 18px;
     background-image: url('../images/Background.png');
-    color:antiquewhite
+    color:antiquewhite;
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
 }
 
 .nav {
